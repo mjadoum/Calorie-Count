@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="css/themes/mytheme.css" />
+  <link rel="stylesheet" href="css/themes/mytheme.min.css" />
+  <title>Home</title>
+</head>
+<body>
+   <div class="ui-popup ui-body-a" data-role="popup" id="popupBasic">
+      <a href="#" data-rel="back"
+        class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+      <p><b>Developer: </b>Mustafa Jadoun </p>
+      <p><b>Version: </b>1.0</p>
+      <p><b>Release Date: </b>10/01/2021</p>
+    </div>
+    <script>
+      $(function() {
+        $("#popupBasic").enhanceWithin().popup();
+      });
+    </script>
+  <!--Home page-->
+  <div data-role="page" id="HomePage">
+    <link rel="stylesheet" href="css/themes/style.css">
+   
+    <!--Header-->
+    <div data-role="header" class="header">
+      <h1>
+        <a href="index.html">
+          <img src="images/logo.png" alt="logo" class="logo">
+        </a>
+      </h1>
+    </div>
+    <!--content-->
+    <div role="main" class="ui-content">
+      <h1 class="head-title">Be Healthy for Life !</h1>
+      <p class="para">“You really can't go wrong with This app
+        as a scientifically-proven way to help you lose weight”</p>
+      <ul data-role="listview" >
+            <li><a href="helpsection.html" data-inset="true">
+            <h2>Help Section</h2><img src="images/home page/heart.png" alt="logo" class="icon">
+          </a></li>
+            <li><a href="aboutcalorie.html">
+            <h2>about calories</h2><img src="images/home page/meal.png" alt="logo" class="icon">
+          </a> </li>
+            <li><a href="foodGroups.html">
+            <h2>Food Groups</h2><img src="images/home page/diet (1).png" alt="logo" class="icon">
+          </a></li>
+      </ul>
+    </div>
+    <!--footert-->
+    <footer data-role="footer" data-position="fixed">
+      <div class="ui-navbar" data-role="navbar">
+        <ul>
+          <li><a href="#popupBasic" data-rel="popup"> <img src="images/nav-footer/development.png" alt="logo"class="icon-footer"><h2>Developer</h2></a></li>
+          <li><a href="contact.html"><img src="images/nav-footer/chat.png" alt="logo" class="icon-footer"><h2>Contact Us</h2></a></li>
+          <li><a href="caloriecount.html"><img src="images/nav-footer/calories.png" alt="logo" class="icon-footer"><h2>Calorie Count</h2></a></li>
+        </ul>
+      </div>
+    </footer>
+
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="css/themes/mytheme.css" />
+    <link rel="stylesheet" href="css/themes/mytheme.min.css" />
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <!--Contact us-->
+    <div data-role="page" id="contact">
+        <link rel="stylesheet" href="css/themes/style.css">
+        <!--Header-->
+
+        <div data-role="header" class="header">
+            <a href="index.html" class="ui-btn ui-btn-inline button"><img src="images/back-arrow.png" alt=""
+                    class="back">Back</a>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo" class="logo">
+                </a>
+            </h1>
+        </div>
+        <!--content-->
+        <h2 class="head-title">Contact us</h2>
+        <div role="main" class="ui-content">
+            <!--Form-->
+            <form method="GET" action="welcom.html">
+                <!--Name-->
+                <div class="ui-field-content">
+                    <label for="username">User Name :</label>
+                    <input type="text" name="username" id="username" value="" required>
+                </div>
+                <!--Email-->
+                <div class="ui-field-content">
+                    <label for="eamil">Email :</label>
+                    <input type="email" name="email" id="email" value="" required>
+                </div>
+                <!--Textarea-->
+                <div class="ui-field-content">
+                    <label for="comments">Comment :</label>
+                    <textarea name="comments" id="comments" value="" rows="4" cols="50"></textarea>
+                </div>
+                <!--checkbox-->
+                <div class="ui-field-content">
+
+                    <input type="checkbox" name="newsletter" id="newsletter" value="no" data-mini="true">
+                    <p>Tick this to receive a monthly newsletter .</p>
+
+                </div>
+                <!--button-->
+                <div class="ui-field-content">
+                    <button type="submit" name="submit" value="submit"> Sumbit</button>
+                </div>
+            </form>
+        </div>
+        <footer data-role="footer">
+            <div class="ui-navbar" data-role="navbar">
+                <h4>@CopyRight by Mustafa JAdoun </h4>
+            </div>
+        </footer>
+        <!--footer-->
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="css/themes/mytheme.css" />
+  <link rel="stylesheet" href="css/themes/mytheme.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <title>Food Groups | Vegetable</title>
+</head>
+
+<body>
+ 
+  <!--Home page-->
+  <div data-role="page" id="vegetables">
+    <link rel="stylesheet" href="css/themes/style.css">
+
+  
+    <!--Header-->
+    <div data-role="header" class="header">
+      <a href="foodGroups.html" class="ui-btn ui-btn-inline button"><img src="images/back-arrow.png" alt=""
+          class="back">Back</a>
+      <h1>
+        <a href="index.html">
+          <img src="images/logo.png" alt="logo" class="logo">
+        </a>
+      </h1>
+    </div>
+    <!--content-->
+    <div role="main" class="ui-content">
+      <form class="ui-filterable">
+        <input id="autocomplete-input" data-type="search" placeholder="Search ">
+      </form>
+      <ul data-role="listview" data-filter="true" data-input="#autocomplete-input">
+
+         <li><a id="Spinach" href="#transitionExample" data-transition="flip" class="vegetable" data-rel="popup">
+            <h2>Spinach</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">(100G) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 24</p>
+            <img src="images/food/vegetable/spinach.png" alt="logo" class="icon">
+          </a></li>
+
+            <li><a class="vegetable1" id="Lettuce" href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>Lettuce</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">(100G) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;10</p>
+            <img src="images/food/vegetable/lettuce.png" alt="logo" class="icon">
+          </a> </li>
+
+            <li><a class="vegetable3" id="potato" href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>potato</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">(100G) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 97</p>
+            <img src="images/food/vegetable/potato.png" alt="logo" class="icon">
+          </a></li>
+
+        <li><a class="vegetable2" id="pepper" href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>pepper</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">1 ave. slice &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1</p>
+            <img src="images/food/vegetable/food-and-restaurant.png" alt="logo" class="icon">
+          </a></li>
+
+         <li><a class="vegetable3" id="cucumber" href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>cucumber</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">1 Slice (6g) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0</p>
+            <img src="images/food/vegetable/cucumber.png" alt="logo" class="icon">
+          </a></li>
+
+        <li><a class="vegetable3" id="onion" href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>onion</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">(100G) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 43</p>
+            <img src="images/food/vegetable/onion.png" alt="logo" class="icon">
+          </a></li>
+      </ul>
+    </div>
+    <!--footert-->
+    <footer data-role="footer" data-position="fixed">
+      <div class="ui-navbar" data-role="navbar">
+        <h4>@CopyRight by Mustafa JAdoun </h4>
+      </div>
+    </footer>
+     <div data-role="popup" id="transitionExample" class="ui-content" data-theme="a">
+       <h4><i class="fas fa-check-circle"></i></h4>
+      <p>Added To Calories Counter</p>
+    </div>
+  </div>
+
+</body>
+
+</html>

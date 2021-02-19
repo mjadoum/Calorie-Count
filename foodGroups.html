@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="css/themes/mytheme.css" />
+  <link rel="stylesheet" href="css/themes/mytheme.min.css" />
+  <title>Food Groups</title>
+</head>
+
+<body>
+
+  <!--Home page-->
+  <div data-role="page" id="foodGroups">
+    <link rel="stylesheet" href="css/themes/style.css">
+  
+    <!--Header-->
+    <div data-role="header" class="header">
+      <a href="index.html" class="ui-btn ui-btn-inline button"><img src="images/back-arrow.png" alt=""
+          class="back">Back</a>
+      <h1>
+        <a href="index.html">
+          <img src="images/logo.png" alt="logo" class="logo">
+        </a>
+      </h1>
+    </div>
+    <!--content-->
+    <div role="main" class="ui-content">
+      <img src="images/food/Food-Groups-header.png" alt="Food-Groups-header" class="header-image">
+      <ul data-role="listview">
+            <li><a href="vegetables.html" data-inset="true" class="vegetable">
+            <h2>Vegetables</h2><img src="images/food/vegetable/logo (2).png" alt="logo" class="icon">
+          </a></li>
+            <li><a href="fruit.html" data-inset="true" class="fruit">
+            <h2>Fruit</h2><img src="images/food/fruits/fruits.png" alt="logo" class="icon">
+          </a> </li>
+            <li><a href="meat.html" data-inset="true" class="meat">
+            <h2>Meat</h2><img src="images/food/meat/meat.png" alt="logo" class="icon">
+          </a></li>
+        <li><a href="cereal.html" data-inset="true" class="cereal">
+            <h2>cereal</h2><img src="images/food/cereal/flour.png" alt="logo" class="icon">
+          </a></li>
+      </ul>
+    </div>
+    <!--footert-->
+    <footer data-role="footer">
+      <div class="ui-navbar" data-role="navbar">
+        <ul>
+          <li><a href="#popupBasic" data-rel="popup"> <img src="images/nav-footer/development.png" alt="logo"
+                class="icon-footer">
+              <h2>Developer</h2>
+            </a>
+          </li>
+          <li><a href="contact.html"><img src="images/nav-footer/chat.png" alt="logo" class="icon-footer">
+              <h2>Contact Us</h2>
+            </a></li>
+          <li><a href="caloriecount.html"><img src="images/nav-footer/calories.png" alt="logo" class="icon-footer">
+              <h2>Calorie Count</h2>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+ <div data-role="popup" id="transitionExample" class="ui-content" data-theme="a">
+      <p>Added to Cointer</p>
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>

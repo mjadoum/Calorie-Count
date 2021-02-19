@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="css/themes/mytheme.css" />
+    <link rel="stylesheet" href="css/themes/mytheme.min.css" />
+    <title>About Calorie</title>
+</head>
+
+<body>
+    <div class="ui-popup ui-body-a" data-role="popup" id="popupBasic">
+        <a href="#" data-rel="back"
+            class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+        <p><b>Developer: </b>Mustafa Jadoun </p>
+        <p><b>Version: </b>1.0</p>
+        <p><b>Release Date: </b>10/01/2021</p>
+    </div>
+    <script>
+        $(function () {
+            $("#popupBasic").enhanceWithin().popup();
+        });
+    </script>
+    <!--About Calorie page-->
+    <div data-role="page" id="AboutCalorie">
+        <link rel="stylesheet" href="css/themes/style.css">
+
+        <!--Header-->
+        <div data-role="header" class="header">
+            <a href="index.html" class="ui-btn ui-btn-inline button"><img src="images/back-arrow.png" alt=""
+                    class="back">Back</a>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo" class="logo">
+                </a>
+            </h1>
+        </div>
+        <!--content-->
+        <div role="main" class="ui-content">
+
+            <h4 class="head-title">When most of us think of calories, we think of how fattening
+                a food is. In dietary terms, calories are the amount of energy
+                that a food provides.
+            </h4>
+
+            <p class="para">If we consistently take in more energy than we need, we will gain
+                weight. If we take in too little energy, we will lose weight, fat, and eventually muscle mass.</p>
+            <p class="para">The definition of a calorie is the amount of energy needed to raise the
+                temperature of 1 gram (g) of water through 1° Celsius.</p>
+            <p class="para">The type and amount of food we eat determine how many calories we
+                consume. For many people on a weight-loss diet, the number of calories in
+                a food is a deciding factor in choosing whether or not to eat it. </p>
+            <p class="para">How and when we eat can also make a difference, as the body uses energy
+                differently throughout the day. Our body’s energy use will depend on how
+                active we are, how efficiently our body uses the energy, and our age.</p>
+            <p class="para">According to the 2015-2020 Dietary Guidelines for Americans, women are
+                likely to need between 1,600 and 2,400 calories a day, and men from 2,000 to
+                3,000. However, this depends on their age, size, height, lifestyle, overall
+                health, and activity level.</p>
+            <img src="images/choosing-the-right-food.png" alt="choosing-the-right-food" class="about-image">
+        </div>
+        <!--footert-->
+        <footer data-role="footer">
+            <div class="ui-navbar" data-role="navbar">
+                <ul>
+                    <li><a href="#popupBasic" data-rel="popup"> <img src="images/nav-footer/development.png" alt="logo"
+                                class="icon-footer">
+                            <h2>Developer</h2>
+                        </a>
+                    </li>
+                    <li><a href="contact.html"><img src="images/nav-footer/chat.png" alt="logo" class="icon-footer">
+                            <h2>Contact Us</h2>
+                        </a></li>
+                    <li><a href="caloriecount.html"><img src="images/nav-footer/calories.png" alt="logo"
+                                class="icon-footer">
+                            <h2>Calorie Count</h2>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+
+    </div>
+
+</body>
+
+</html>

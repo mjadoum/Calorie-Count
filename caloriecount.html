@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="css/themes/mytheme.css" />
+    <link rel="stylesheet" href="css/themes/mytheme.min.css" />
+    <title>Calories Count</title>
+</head>
+
+<body>
+
+    <!--Count calories us-->
+    <div data-role="page" id="count">
+        <link rel="stylesheet" href="css/themes/style.css">
+        <!--Header-->
+
+        <div data-role="header" class="header">
+            <a href="index.html" class="ui-btn ui-btn-inline button"><img src="images/back-arrow.png" alt=""
+                    class="back">Back</a>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo" class="logo">
+                </a>
+            </h1>
+        </div>
+        <!--content-->
+        <div role="main" class="ui-content">
+            <h2 class="head-title">calorie count</h2>
+            <h1 class="zero-title" id="output-calories">0</h1>
+            <h4>KCL</h4>
+
+            <input type="number" id="numberInput" value="" placeholder="add your calorie ..." max="9999">
+            <button class="ui-shadow ui-btn ui-corner-all left" id="add" type="button">ADD</button>
+            <button class="ui-shadow ui-btn ui-corner-all right" id="rest" type="button">REST</button>
+
+        </div>
+        <footer data-role="footer" data-position="fixed">
+            <div class="ui-navbar" data-role="navbar">
+                <h4>@CopyRight by Mustafa Jadoun </h4>
+            </div>
+        </footer>
+        <!--footer-->
+    </div>
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>

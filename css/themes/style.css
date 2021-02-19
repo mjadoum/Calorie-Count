@@ -1,0 +1,1790 @@
+/* Header of the page*/
+   @font-face {
+       font-family: 'Hashed Browns Regular';
+       font-style: normal;
+       font-weight: normal;
+       src: local('Hashed Browns Regular'), url('HashedBrowns-WyJgn.woff') format('woff');
+   }
+.header {
+    border-bottom-right-radius: 56px;
+    border-bottom-left-radius: 56px;
+}
+
+.logo {
+    width: 82px;
+    height: 82px;
+
+}
+/* body of the page*/
+#HomePage,
+#HelpSection,
+#AboutCalorie,
+#foodGroups {
+      font-family: 'Hashed Browns Regular' !important;
+      font-weight: 400 !important;
+}
+
+#HomePage .ui-content ul li a {
+    margin-top: -25px !important;
+    margin-left: 30px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: 20px !important;
+    border-radius: 17px !important;
+}
+#HomePage .ui-content ul  {
+    margin-bottom:-20px !important;
+}
+#HomePage ul li a h2 {
+    font-family: 'Hashed Browns Regular' !important;
+     font-weight: 200 !important;
+    margin-top: 20px !important;
+    font-size: 20px !important;
+    margin-bottom: -10px !important;
+}
+
+#HomePage .icon {
+    margin-top: -30% !important;
+    margin-left: 60% !important;
+    width: 45px !important;
+}
+
+#HomePage .head-title {
+    margin-top: 10px;
+    color: #268FD0 !important;
+}
+
+#HomePage .para {
+    color: #46618A !important;
+    margin-bottom: 40px !important;
+}
+
+#HomePage .ui-content h1,
+p {
+    text-align: center !important;
+}
+
+/* footer of the page*/
+#HomePage footer {
+    background-color: unset !important;
+    border: none !important;
+}
+
+#HomePage footer ul a {
+    color: white !important;
+    background-color: #09BF4F !important;
+    height: 50px !important;
+    padding-left: 0px !important;
+    border-top-right-radius: 56px !important;
+    border-top-left-radius: 56px !important;
+}
+
+#HomePage footer ul a h2 {
+     font-family: 'Hashed Browns Regular' !important;
+     font-weight: 200 !important;
+    
+    margin-top: -20px !important;
+    margin-left: 10px !important;
+    font-size: 16px !important;
+    margin-bottom: -10px !important;
+}
+
+#HomePage .icon-footer {
+    margin-left: 15px !important;
+    width: 33px !important;
+    margin-bottom: 20px !important;
+}
+
+/* ______________________________________________________
+/* Help section page*/
+
+/* body of the page*/
+#HelpSection .button {
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 6% !important;
+    background-color: white;
+    text-align: right;
+    margin-left: 10%;
+    font-size: 17px;
+    color: #0BBB17;
+    width: 60px;
+    height: 19px;
+    border-radius: 32px;
+}
+
+#HelpSection .button:hover {
+    background-color: rgb(237, 229, 229);
+    color: #09BF4F;
+}
+
+#HelpSection .back {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    width: 18px;
+    border-radius: 32px;
+}
+
+#foodGroups .icon {
+    margin-top: -30% !important;
+    margin-left: -15% !important;
+    width: 45px;
+}
+
+#HelpSection .head-title {
+    color: #268FD0;
+    margin-top: -7px;
+    text-align: center;
+}
+
+#HelpSection .subtitle {
+    background-color: #ECDDCE;
+    border-radius: 17px;
+    height: 30px;
+    width: 200px;
+    color: #46618A;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#HelpSection .para {
+    margin-left: 15px;
+    text-align: left !important;
+    color: #46618A;
+
+}
+
+/* footer of the page*/
+#HelpSection footer {
+    background-color: unset !important;
+    border: none !important;
+}
+
+#HelpSection footer ul a {
+    color: white !important;
+    background-color: #09BF4F !important;
+    height: 50px !important;
+    padding-left: 0px;
+    border-top-right-radius: 56px;
+    border-top-left-radius: 56px;
+}
+
+#HelpSection footer ul a h2 {
+    font-family: 'Hashed Browns Regular' !important;
+    font-weight: 200 !important;
+    margin-top: -20px !important;
+    margin-left: 10px !important;
+    font-size: 16px !important;
+    margin-bottom: -10px !important;
+}
+
+#HelpSection .icon-footer {
+    margin-left: 15px;
+    width: 30px !important;
+    margin-bottom: 20px;
+}
+
+/* ______________________________________________________
+/*About Calorie page*/
+/* body of the page*/
+#AboutCalorie .button {
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 6% !important;
+    background-color: white;
+    text-align: right;
+    margin-left: 10%;
+    font-size: 17px;
+    color: #0BBB17;
+    width: 60px;
+    height: 19px;
+    border-radius: 32px;
+}
+
+#AboutCalorie .button:hover {
+    background-color: rgb(237, 229, 229);
+    color: #09BF4F;
+}
+
+#AboutCalorie .back {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    width: 18px;
+    border-radius: 32px;
+}
+
+
+#AboutCalorie .head-title {
+    margin-left: 15px;
+     font-weight:500 !important;
+    color: #268FD0;
+    margin-top: 17px;
+    text-align: left;
+}
+
+#AboutCalorie .para {
+    margin-left: 15px;
+    margin-top: 20px;
+    text-align: left !important;
+    color: #46618A;
+    z-index: 1;
+}
+
+#AboutCalorie .about-image {
+    width: 100%;
+    opacity: .5;
+    z-index: 2;
+}
+
+#AboutCalorie .ui-content {
+    margin-bottom: -65px;
+}
+
+/* footer of the page*/
+#AboutCalorie footer {
+    background-color: unset !important;
+    border: none !important;
+}
+
+#AboutCalorie footer ul a {
+    color: white !important;
+    background-color: #09BF4F !important;
+    height: 50px !important;
+  
+    border-top-right-radius: 56px;
+    border-top-left-radius: 56px;
+}
+
+#AboutCalorie footer ul a h2 {
+     font-family: 'Hashed Browns Regular' !important;
+     font-weight: 300 !important;
+    margin-top: -20px !important;
+    margin-left: 10px !important;
+    font-size: 16px !important;
+    margin-bottom: -10px !important;
+}
+
+#AboutCalorie .icon-footer {
+    margin-left: 15px !important;
+    width: 30px !important;
+    margin-bottom: 20px !important;
+}
+
+/* ______________________________________________________
+/*Food Groups page*/
+/* body of the page*/
+   
+
+#foodGroups .button {
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 6% !important;
+    background-color: white;
+    text-align: right;
+    margin-left: 10%;
+    font-size: 17px;
+    color: #0BBB17;
+    width: 60px;
+    height: 19px;
+    border-radius: 32px;
+}
+
+#foodGroups .button:hover {
+    background-color: rgb(237, 229, 229);
+    color: #09BF4F;
+}
+
+#foodGroups .back {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    width: 18px;
+    border-radius: 32px;
+}
+
+#foodGroups .icon {
+    margin-top: -30% !important; 
+    margin-left: -15% !important;
+    width: 45px;
+}
+
+#foodGroups .header-image {
+    width: 164px;
+    margin: 0 0px 5px 150px;
+} 
+
+#foodGroups .ui-content ul li .vegetable {
+    color: #718838;
+    background-color: #B5C232;
+    margin-top: 0px !important;
+    margin-left: 30px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: 0px !important;
+    border-radius: 17px !important;
+}
+
+#foodGroups .ui-content ul li .vegetable:hover {
+    color: #B5C232;
+    background-color: #718838;
+}
+
+#foodGroups .ui-content ul li .fruit {
+    color: #BF8F09;
+    background-color: #FCCD49;
+    margin-top: -5px !important;
+    margin-left: 30px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: 20px !important;
+    border-radius: 17px !important;
+}
+
+#foodGroups .ui-content ul li .fruit:hover {
+    color: #FCCD49;
+    background-color: #BF8F09;
+}
+
+#foodGroups .ui-content ul li .meat {
+    color: #971A20;
+    background-color: #DC7667;
+    margin-top: -25px !important;
+    margin-left: 30px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: 20px !important;
+    border-radius: 17px !important;
+}
+
+#foodGroups .ui-content ul li .meat:hover {
+    color: #DC7667;
+    background-color: #971A20;
+}
+
+#foodGroups .ui-content ul li .cereal {
+    color: #9D6A34;
+    background-color: #EACDB0;
+    margin-top: -5px !important;
+    margin-left: 30px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: 60px !important;
+    border-radius: 17px !important;
+}
+#foodGroups .ui-content ul li h2 {
+     font-weight:500 !important;
+    margin-top: 20px !important;
+      font-family: 'Hashed Browns Regular' !important;
+    margin-left: 30px !important;
+     margin-bottom: -5px !important;
+}
+#foodGroups .ui-content ul li .cereal:hover {
+    color: #EACDB0;
+    background-color: #9D6A34;
+
+}
+
+/* footer of the page*/
+#foodGroups footer {
+    background-color: unset !important;
+    border: none !important;
+}
+#foodGroups footer ul a {
+    font-family: 'Hashed Browns Regular' !important;
+    color: white !important;
+    background-color: #09BF4F !important;
+    height: 50px !important;
+    padding-left: 0px;
+    border-top-right-radius: 56px;
+    border-top-left-radius: 56px;
+}
+
+#foodGroups footer ul a h2 {
+     font-family: 'Hashed Browns Regular' !important;
+     font-weight: 200 !important;
+    margin-top: -20px !important;
+    margin-left: 10px !important;
+    font-size: 16px !important;
+    margin-bottom: -10px !important;
+}
+
+#foodGroups .icon-footer {
+    margin-left: 15px;
+    width: 30px !important;
+    margin-bottom: 20px;
+}
+
+/* ______________________________________________________
+/*vegetables page*/
+/* body of the page*/
+#vegetables #transitionExample {
+ font-family: 'Hashed Browns Regular' !important;
+  height: 50px !important;
+  color: #09BF4F;
+  padding-top: 5px;
+}
+#vegetables #transitionExample h4 {
+   text-align: center;
+   font-size: 25px;
+   margin-bottom: -1px;
+}
+#vegetables .ui-filterable #autocomplete-input {
+    font-family: 'Hashed Browns Regular' !important;
+    border: 1px solid #BEA993 !important;
+    border-radius: 15px;
+    width: 437px !important;
+    height: 50px !important;
+    padding-left: 30px;
+}
+
+#vegetables form {
+    border-radius: 15px;
+    margin-left: 7px !important;
+    width: 439px !important;
+    height: 50px !important;
+    padding-left: 0px;
+
+
+}
+#vegetables .ui-content ul li a {
+    font-family: 'Hashed Browns Regular' !important;
+    color: #718838;
+    background-color: #B5C232;
+    margin-top: 0px !important;
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom:5px !important;
+    border-radius: 17px !important;
+}
+
+#vegetables .ui-content ul li .vegetable {
+    font-family: 'Hashed Browns Regular' !important;
+    color: #718838;
+    background-color: #B5C232;
+    margin-top: 10px !important;
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: -17px !important;
+    border-radius: 17px !important;
+}
+
+#vegetables .ui-content ul li .vegetable:hover {
+    font-weight: 300 !important;
+    color: #B5C232;
+    background-color: #718838;
+}
+#vegetables .ui-content ul li .vegetable1 {
+    font-family: 'Hashed Browns Regular' !important;
+    color: #718838;
+    background-color: #B5C232;
+    margin-top: 0px !important;
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: -17px !important;
+    border-radius: 17px !important;
+}
+
+#vegetables .ui-content ul li .vegetable1:hover {
+    color: #B5C232;
+    background-color: #718838;
+}
+
+#vegetables .ui-content ul li .vegetable2 {
+    font-family: 'Hashed Browns Regular' !important;
+    color: #718838;
+    background-color: #B5C232;
+ 
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: -17px !important;
+    border-radius: 17px !important;
+}
+
+#vegetables .ui-content ul li .vegetable2:hover {
+    color: #B5C232;
+    background-color: #718838;
+}
+
+#vegetables .ui-content ul li .vegetable3 {
+    font-family: 'Hashed Browns Regular' !important;
+    color: #718838;
+    background-color: #B5C232;
+  
+}
+
+#vegetables .ui-content ul li .vegetable3:hover {
+    color: #B5C232;
+    background-color: #718838;
+}
+#vegetables ul {
+
+    margin-bottom: 30px !important;
+}
+#vegetables ul li a h2 {
+    font-weight: 200 !important;
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 20px !important;
+    font-size: 20px !important;
+    margin-left: 20px;
+    margin-bottom: -10px !important;
+}
+
+#vegetables ul li a .first-line {
+    font-family: 'Hashed Browns Regular' !important;
+    color: white;
+    margin-top: -25px !important;
+    font-size: 14px !important;
+    margin-left: 120px;
+    margin-bottom: -2px !important;
+}
+
+#vegetables ul li a .sec-line {
+    font-family: 'Hashed Browns Regular' !important;
+    color: white;
+    margin-top: 5px !important;
+    font-size: 14px !important;
+    margin-left: 110px;
+    margin-bottom: -20px !important;
+}
+
+#vegetables .button {
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 6% !important;
+    background-color: white;
+    text-align: right;
+    margin-left: 10%;
+    font-size: 17px;
+    color: #0BBB17;
+    width: 60px;
+    height: 19px;
+    border-radius: 32px;
+}
+
+#vegetables .button:hover {
+    background-color: rgb(237, 229, 229);
+    color: #09BF4F;
+}
+
+#vegetables .back {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    width: 18px;
+    border-radius: 32px;
+}
+
+#vegetables .icon {
+    margin-top: -25% !important;
+    margin-left: -20%;
+    width: 45px;
+}
+
+
+#vegetables footer {
+    background-color: #09BF4F !important;
+    height: 43px !important;
+    border-top-right-radius: 56px !important;
+    border-top-left-radius: 56px;
+}
+
+#vegetables footer h4 {
+    font-weight: 200 !important;
+    font-family: 'Hashed Browns Regular' !important;
+    color: white !important;
+    margin-top: 15px;
+    text-align: center;
+
+}
+/* ______________________________________________________
+/*Fruits page*/
+/* body of the page*/
+#fruit #transitionExample {
+    font-family: 'Hashed Browns Regular' !important;
+    height: 50px !important;
+    color: #09BF4F;
+    padding-top: 5px;
+}
+
+#fruit #transitionExample h4 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: -1px;
+}
+#fruit .ui-filterable #autocomplete-input {
+    font-family: 'Hashed Browns Regular' !important;
+    border: 1px solid #BEA993 !important;
+    border-radius: 15px;
+    width:437px !important;
+    height: 50px !important;
+    padding-left: 30px;
+}
+#fruit form{
+ border-radius: 15px;
+ margin-left: 7px !important;
+ width:439px !important;
+ height: 50px !important;
+ padding-left: 0px;
+
+ 
+}
+#fruit .ui-content ul li a {
+    font-family: 'Hashed Browns Regular' !important;
+    color: #718838;
+    background-color: #B5C232;
+    margin-top: 0px !important;
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: 5px !important;
+    border-radius: 17px !important;
+}
+#fruit .ui-content ul li .fruit {
+    font-family: 'Hashed Browns Regular' !important;
+   color: #BF8F09;
+   background-color: #FCCD49;
+    margin-top: 10px !important;
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: -17px !important;
+    border-radius: 17px !important;
+}
+
+#fruit .ui-content ul li .fruit:hover {
+    font-weight: 300 !important;
+    color: #FCCD49;
+    background-color: #BF8F09;
+}
+
+#fruit .ui-content ul li .fruit1 {
+    font-family: 'Hashed Browns Regular' !important;
+    color: #BF8F09;
+    background-color: #FCCD49;
+    margin-top: 0px !important;
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: -17px !important;
+    border-radius: 17px !important;
+}
+
+#fruit .ui-content ul li .fruit1:hover {
+    color: #FCCD49;
+    background-color: #BF8F09;
+}
+
+#fruit .ui-content ul li .fruit2 {
+    font-family: 'Hashed Browns Regular' !important;
+   color: #BF8F09;
+   background-color: #FCCD49;
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: -17px !important;
+    border-radius: 17px !important;
+}
+
+#fruit .ui-content ul li .fruit2:hover {
+    color: #FCCD49;
+    background-color: #BF8F09;
+}
+
+#fruit .ui-content ul li .fruit3 {
+    font-family: 'Hashed Browns Regular' !important;
+    color: #BF8F09;
+    background-color: #FCCD49;
+
+}
+
+#fruit .ui-content ul li .fruit3:hover {
+    color: #FCCD49;
+    background-color: #BF8F09;
+}
+#fruit ul {
+
+    margin-bottom: 30px !important;
+}
+
+#fruit ul li a h2 {
+    font-weight: 200 !important;
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 20px !important;
+    font-size: 20px !important;
+    margin-left: 20px;
+    margin-bottom: -10px !important;
+}
+
+#fruit ul li a .first-line {
+    font-family: 'Hashed Browns Regular' !important;
+    color: white;
+    margin-top: -25px !important;
+    font-size: 14px !important;
+    margin-left: 120px;
+    margin-bottom: -2px !important;
+}
+
+#fruit ul li a .sec-line {
+    font-family: 'Hashed Browns Regular' !important;
+    color: white;
+    margin-top: 5px !important;
+    font-size: 14px !important;
+    margin-left: 110px;
+    margin-bottom: -20px !important;
+}
+
+#fruit .button {
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 6% !important;
+    background-color: white;
+    text-align: right;
+    margin-left: 10%;
+    font-size: 17px;
+    color: #0BBB17;
+    width: 60px;
+    height: 19px;
+    border-radius: 32px;
+}
+
+#fruit .button:hover {
+    background-color: rgb(237, 229, 229);
+    color: #09BF4F;
+}
+
+#fruit .back {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    width: 18px;
+    border-radius: 32px;
+}
+
+#fruit .icon {
+    margin-top: -30% !important;
+    margin-left: -20%;
+    width: 45px;
+}
+
+
+#fruit footer {
+    background-color: #09BF4F !important;
+    height: 43px !important;
+    border-top-right-radius: 56px !important;
+    border-top-left-radius: 56px;
+}
+
+#fruit footer h4 {
+    font-weight: 200 !important;
+    font-family: 'Hashed Browns Regular' !important;
+    color: white !important;
+    margin-top: 15px;
+    text-align: center;
+
+}
+/* ______________________________________________________
+/*meats page*/
+/* body of the page*/
+#meat #transitionExample {
+    font-family: 'Hashed Browns Regular' !important;
+    height: 50px !important;
+    color: #09BF4F;
+    padding-top: 5px;
+}
+
+#meat #transitionExample h4 {
+    text-align: center;
+     font-size: 25px;
+     margin-bottom: -1px;
+}
+#meat .ui-filterable #autocomplete-input {
+    font-family: 'Hashed Browns Regular' !important;
+    border: 1px solid #BEA993 !important;
+    border-radius: 15px;
+    width: 437px !important;
+    height: 50px !important;
+    padding-left: 30px;
+}
+
+#meat form {
+    border-radius: 15px;
+    margin-left: 7px !important;
+    width: 439px !important;
+    height: 50px !important;
+    padding-left: 0px;
+    font-family: 'Hashed Browns Regular' !important;
+
+}
+#meat .ui-content ul li a {
+    font-family: 'Hashed Browns Regular' !important;
+    color: #971A20;
+    background-color: #DC7667;
+    margin-top: 0px !important;
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: 5px !important;
+    border-radius: 17px !important;
+}
+
+#meat .ui-content ul li .meat {
+    font-family: 'Hashed Browns Regular' !important;
+    color: #971A20;
+    background-color: #DC7667;
+    margin-top: 10px !important;
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: -17px !important;
+    border-radius: 17px !important;
+}
+
+#meat .ui-content ul li .meat:hover {
+    font-weight: 300 !important;
+    color: #DC7667;
+    background-color: #971A20;
+}
+
+#meat .ui-content ul li .meat1 {
+    font-family: 'Hashed Browns Regular' !important;
+   color: #971A20;
+   background-color: #DC7667;
+    margin-top: 0px !important;
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: -17px !important;
+    border-radius: 17px !important;
+}
+
+#meat .ui-content ul li .meat1:hover {
+    color: #DC7667;
+    background-color: #971A20;
+}
+#meat .ui-content ul li .meat2 {
+    font-family: 'Hashed Browns Regular' !important;
+   color: #971A20;
+   background-color: #DC7667;
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: -17px !important;
+    border-radius: 17px !important;
+}
+
+#meat .ui-content ul li .meat2:hover {
+    color: #DC7667;
+    background-color: #971A20;
+}
+#meat .ui-content ul li .meat3 {
+    font-family: 'Hashed Browns Regular' !important;
+    color: #971A20;
+    background-color: #DC7667;
+   
+
+}
+#meat .ui-content ul li .meat3:hover {
+      color: #DC7667;
+      background-color: #971A20;
+      }
+     #meat ul {
+
+          margin-bottom: 30px !important;
+      }
+
+#meat ul li a h2 {
+    font-weight: 200 !important;
+     font-family: 'Hashed Browns Regular' !important;
+    margin-top: 20px !important;
+    font-size: 20px !important;
+    margin-left: 20px;
+    margin-bottom: -10px !important;
+}
+
+#meat ul li a .first-line {
+     font-family: 'Hashed Browns Regular' !important;
+    color: white;
+    margin-top: -25px !important;
+    font-size: 14px !important;
+    margin-left: 120px;
+    margin-bottom: -2px !important;
+}
+
+#meat ul li a .sec-line {
+     font-family: 'Hashed Browns Regular' !important;
+    color: white;
+    margin-top: 5px !important;
+    font-size: 14px !important;
+    margin-left: 110px;
+    margin-bottom: -20px !important;
+}
+
+#meat .button {
+     font-family: 'Hashed Browns Regular' !important;
+    margin-top: 6% !important;
+    background-color: white;
+    text-align: right;
+    margin-left: 10%;
+    font-size: 17px;
+    color: #0BBB17;
+    width: 60px;
+    height: 19px;
+    border-radius: 32px;
+}
+
+#meat .button:hover {
+    background-color: rgb(237, 229, 229);
+    color: #09BF4F;
+}
+
+#meat .back {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    width: 18px;
+    border-radius: 32px;
+}
+
+#meat .icon {
+    margin-top: -30% !important;
+    margin-left: -20%;
+    width: 45px;
+}
+#meat footer {
+    background-color: #09BF4F !important;
+    height: 43px !important;
+    border-top-right-radius: 56px !important;
+    border-top-left-radius: 56px;
+}
+#meat footer h4 {
+    font-weight: 200 !important;
+     font-family: 'Hashed Browns Regular' !important;
+    color: white !important;
+    margin-top: 15px;
+    text-align: center;
+
+}
+/* ______________________________________________________
+/*cereal page*/
+/* body of the page*/
+#cereal #transitionExample {
+    font-family: 'Hashed Browns Regular' !important;
+    height: 50px !important;
+    color: #09BF4F;
+    padding-top: 5px;
+}
+
+#cereal #transitionExample h4 {
+    text-align: center;
+     font-size: 25px;
+     margin-bottom: -1px; 
+}
+#cereal .ui-filterable #autocomplete-input {
+    font-family: 'Hashed Browns Regular' !important;
+    border: 1px solid #BEA993 !important;
+    border-radius: 15px;
+    width: 437px !important;
+    height: 50px !important;
+    padding-left: 30px;
+}
+
+#cereal form {
+    border-radius: 15px;
+    margin-left: 7px !important;
+    width: 439px !important;
+    height: 50px !important;
+    padding-left: 0px;
+    font-family: 'Hashed Browns Regular' !important;
+
+}
+#cereal .ui-content ul li a {
+    font-family: 'Hashed Browns Regular' !important;
+    color: #971A20;
+    background-color: #DC7667;
+    margin-top: 0px !important;
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: 5px !important;
+    border-radius: 17px !important;
+}
+
+#cereal .ui-content ul li .cereal {
+    font-family: 'Hashed Browns Regular' !important;
+     color: #9D6A34;
+     background-color: #EACDB0;
+    margin-top: 10px !important;
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: -17px !important;
+    border-radius: 17px !important;
+}
+
+#cereal .ui-content ul li .cereal:hover {
+    font-weight: 300 !important;
+    color: #EACDB0;
+    background-color: #9D6A34;
+}
+
+#cereal .ui-content ul li .cereal1 {
+    font-family: 'Hashed Browns Regular' !important;
+     color: #9D6A34;
+     background-color: #EACDB0;
+    margin-top: 0px !important;
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: -17px !important;
+    border-radius: 17px !important;
+}
+
+#cereal .ui-content ul li .cereal1:hover {
+    color: #EACDB0;
+    background-color: #9D6A34;
+}
+#cereal .ui-content ul li .cereal2 {
+    font-family: 'Hashed Browns Regular' !important;
+     color: #9D6A34;
+     background-color: #EACDB0;
+    margin-left: 23px !important;
+    width: 300px;
+    height: 40px !important;
+    margin-bottom: -17px !important;
+    border-radius: 17px !important;
+}
+
+#cereal .ui-content ul li .cereal2:hover {
+    color: #EACDB0;
+    background-color: #9D6A34;
+}
+
+#cereal .ui-content ul li .cereal3 {
+    font-family: 'Hashed Browns Regular' !important;
+     color: #9D6A34;
+     background-color: #EACDB0;
+
+
+}
+
+#cereal .ui-content ul li .cereal3:hover {
+    color: #EACDB0;
+    background-color: #9D6A34;
+}
+#cereal ul {
+  
+    margin-bottom: 30px !important;
+}
+
+
+#cereal ul li a h2 {
+    font-weight: 200 !important;
+     font-family: 'Hashed Browns Regular' !important;
+    margin-top: 20px !important;
+    font-size: 20px !important;
+    margin-left: 20px;
+    margin-bottom: -10px !important;
+}
+
+#cereal ul li a .first-line {
+     font-family: 'Hashed Browns Regular' !important;
+    color: white;
+    margin-top: -25px !important;
+    font-size: 14px !important;
+    margin-left: 120px;
+    margin-bottom: -2px !important;
+}
+
+#cereal ul li a .sec-line {
+     font-family: 'Hashed Browns Regular' !important;
+    color: white;
+    margin-top: 5px !important;
+    font-size: 14px !important;
+    margin-left: 110px;
+    margin-bottom: -20px !important;
+}
+
+#cereal .button {
+     font-family: 'Hashed Browns Regular' !important;
+    margin-top: 6% !important;
+    background-color: white;
+    text-align: right;
+    margin-left: 10%;
+    font-size: 17px;
+    color: #0BBB17;
+    width: 60px;
+    height: 19px;
+    border-radius: 32px;
+}
+
+#cereal .button:hover {
+    background-color: rgb(237, 229, 229);
+    color: #09BF4F;
+}
+
+#cereal .back {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    width: 18px;
+    border-radius: 32px;
+}
+
+#cereal .icon {
+    margin-top: -30% !important;
+    margin-left: -20%;
+    width: 45px;
+}
+
+#cereal footer {
+    background-color: #09BF4F !important;
+    height: 43px !important;
+    border-top-right-radius: 56px !important;
+    border-top-left-radius: 56px;
+}
+
+#cereal footer h4 {
+    font-weight: 200 !important;
+     font-family: 'Hashed Browns Regular' !important;
+    color: white !important;
+    margin-top: 15px;
+    text-align: center;
+
+}
+/* ______________________________________________________
+/*Contact us page*/
+/* body of the page*/
+#contact .head-title {
+     font-family: 'Hashed Browns Regular' !important;
+    color: #268FD0;
+    text-align: center;
+}
+
+#contact .button {
+     font-family: 'Hashed Browns Regular' !important;
+    margin-top: 6% !important;
+    background-color: white;
+    text-align: right;
+    margin-left: 10%;
+    font-size: 17px;
+    color: #0BBB17;
+    width: 60px;
+    height: 19px;
+    border-radius: 32px;
+}
+
+#contact .button:hover {
+    background-color: rgb(237, 229, 229);
+    color: #09BF4F;
+}
+
+#contact .back {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    width: 18px;
+    border-radius: 32px;
+}
+
+#contact label {
+    font-weight:300 !important;
+     font-family: 'Hashed Browns Regular' !important;
+    color: #46618A;
+    text-align: left;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+#contact input[type=text] {
+     font-family: 'Hashed Browns Regular' !important;
+    border: 1px solid #BEA993 !important;
+    border-radius: 15px;
+    height: 50px !important;
+    padding-left: 20px;
+}
+
+#contact input[type=checkbox] {
+    border: 1px solid #BEA993 !important;
+    border-radius: 15px !important;
+    height: 50px !important;
+    margin-left: 20px;
+    margin-top: -12px;
+}
+
+#contact p {
+    font-weight: 500 !important;
+     font-family: 'Hashed Browns Regular' !important;
+    padding-top: 4px;
+    border-radius: 15px;
+    height: 50px !important;
+    margin-left: -5px;
+    margin-top: -20px;
+    font-weight: 700;
+    color: #46618A;
+
+}
+
+#contact input[type=email] {
+    font-family: 'Hashed Browns Regular' !important;
+    border: 1px solid #BEA993 !important;
+    border-radius: 15px !important;
+    height: 50px !important;
+    padding-left: 20px;
+
+}
+
+#contact textarea {
+    font-family: 'Hashed Browns Regular' !important;
+    border: 1px solid #BEA993 !important;
+    border-radius: 15px;
+    height: 150px !important;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+#contact button {
+    font-family: 'Hashed Browns Regular' !important;
+    border: 2px solid #09BF4F !important;
+    color: #09BF4F;
+    font-size: 22px;
+    background-color: #F6F2EF;
+    border-radius: 32px !important;
+    height: 65px !important;
+    width: 146px !important;
+    margin-left: 150px;
+    margin-top: -20px;
+
+
+}
+
+#contact footer {
+    color: white !important;
+    background-color: #09BF4F !important;
+    height: 43px !important;
+    padding-left: 150px;
+
+
+    border-top-right-radius: 56px;
+    border-top-left-radius: 56px;
+}
+
+#contact footer h4 {
+    font-weight: 200 !important;
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 15px;
+}
+
+/* ______________________________________________________
+/*Calorie count page*/
+/* body of the page*/
+#count .head-title {
+    font-family: 'Hashed Browns Regular' !important;
+    color: #268FD0;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#count .zero-title {
+    font-family: 'Hashed Browns Regular' !important;
+    color: #09BF4F;
+    font-size: 5rem;
+    margin-top: -20px;
+    margin-bottom: -40px;
+    text-align: center;
+}
+
+#count .button {
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 6% !important;
+    background-color: white;
+    text-align: right;
+    margin-left: 10%;
+    font-size: 17px;
+    color: #0BBB17;
+    width: 60px;
+    height: 19px;
+    border-radius: 32px;
+}
+
+#count .back {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    width: 18px;
+    border-radius: 32px;
+}
+
+#count .button:hover {
+    background-color: rgb(237, 229, 229);
+    color: #09BF4F;
+}
+
+#count h4 {
+    font-family: 'Hashed Browns Regular' !important;
+    color: #09BF4F;
+    font-size: 1rem;
+    margin-left: 170px;
+    margin-top: 0px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+#count input[type=number] {
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 0px;
+    background: unset !important;
+    border: 1px solid #BEA993 !important;
+    font-size: 14px;
+    border-radius: 15px;
+    width: 100%;
+    height: 50px !important;
+    padding-left: 20px;
+    margin-left: 0px;
+}
+
+#count .left {
+    font-family: 'Hashed Browns Regular' !important;
+    border: 2px solid #09BF4F !important;
+    color: #09BF4F;
+    font-size: 18px;
+    background-color: #F6F2EF;
+    border-radius: 32px !important;
+    height: 55px !important;
+    width: 102px;
+    margin-top: 10px;
+    float: left;
+    position: absolute;
+    left: 100px;
+}
+
+#count .right {
+    font-family: 'Hashed Browns Regular' !important;
+    border: 2px solid #09BF4F !important;
+    color: #09BF4F;
+    font-size: 18px;
+    background-color: #F6F2EF;
+    border-radius: 32px !important;
+    height: 55px !important;
+    width: 102px;
+    margin-top: 10px;
+    float: right;
+    position: absolute;
+    right: 100px;
+
+}
+#count footer {
+    background-color: #09BF4F !important;
+    height: 43px !important;
+    border-top-right-radius: 56px !important;
+    border-top-left-radius: 56px;
+}
+#count footer h4 {
+    font-weight: 200 !important;
+    font-family: 'Hashed Browns Regular' !important;
+    color: white !important;
+    margin-top: 15px;
+   margin-left: -15px;
+    
+}
+@media only screen and (min-width: 768px) {
+ 
+    #HomePage .ui-content ul li a {
+        margin-top: -25px !important;
+        margin-left: 30px !important;
+        width: 84%;
+        height: 40px !important;
+        margin-bottom: 20px !important;
+        border-radius: 17px !important;
+    }
+    #HomePage .icon {
+        margin-top: -30% !important;
+        margin-left:90%;
+        width: 45px;
+    }
+   #HelpSection .button {
+        font-family: 'Hashed Browns Regular' !important;
+        margin-top: 2% !important;
+        background-color: white;
+        text-align: right;
+        margin-left: 10%;
+        font-size: 17px;
+        color: #0BBB17;
+        width: 60px;
+        height: 19px;
+        border-radius: 32px;
+    }
+     #AboutCalorie .button {
+         font-family: 'Hashed Browns Regular' !important;
+         margin-top: 2% !important;
+         background-color: white;
+         text-align: right;
+         margin-left: 10%;
+         font-size: 17px;
+         color: #0BBB17;
+         width: 60px;
+         height: 19px;
+         border-radius: 32px;
+     }
+    #foodGroups .button {
+        font-family: 'Hashed Browns Regular' !important;
+        margin-top:2% !important;
+        background-color: white;
+        text-align: right;
+        margin-left: 10%;
+        font-size: 17px;
+        color: #0BBB17;
+        width: 60px;
+        height: 19px;
+        border-radius: 32px;
+    }
+    #foodGroups .header-image {
+        width: 164px;
+        margin: 0 0px 5px 43.5%;
+    }
+
+    #foodGroups .ui-content ul li .vegetable {
+        width: 84%;
+    }
+  
+    #foodGroups .ui-content ul li .fruit { 
+         width: 84%;
+    }
+
+    #foodGroups .ui-content ul li .meat {
+         width: 84%;
+    }
+
+    #foodGroups .ui-content ul li .cereal {
+         width: 84%;  
+    }
+#foodGroups .ui-content ul li h2{
+    margin-top: 2%;
+    margin-left: 10% !important;
+    margin-bottom: -10px;
+   
+}
+#foodGroups .icon {
+    margin-top: -3%;
+    margin-left: 0% !important;
+    margin-bottom: 0px;
+}
+/*vegetables*/
+#vegetables .ui-filterable #autocomplete-input {
+    font-family: 'Hashed Browns Regular' !important;
+    border: 1px solid #BEA993 !important;
+    border-radius: 15px;
+    width: 185vh !important;
+    height: 50px !important;
+    padding-left: 30px;
+}
+
+#vegetables form {
+    border-radius: 15px;
+    margin-left: 7px !important;
+    width: 185.5vh !important;
+    height: 50px !important;
+    padding-left: 0px;
+    font-family: 'Hashed Browns Regular' !important;
+
+}
+    #vegetables .button {
+         font-family: 'Hashed Browns Regular' !important;
+         margin-top: 2% !important;
+         background-color: white;
+         text-align: right;
+         margin-left: 10%;
+         font-size: 17px;
+         color: #0BBB17;
+         width: 60px;
+         height: 19px;
+         border-radius: 32px;
+     }
+
+
+     #vegetables .ui-content ul li .vegetable {
+         width: 84%;
+     }
+
+     #vegetables .ui-content ul li .vegetable1 {
+         width: 84%;
+     }
+
+    #vegetables .ui-content ul li .vegetable2 {
+         width: 84%;
+     }
+
+    #vegetables .ui-content ul li .vegetable3 {
+         width: 84%;
+     }
+
+    #vegetables .ui-content ul li h2 {
+         margin-top: 2%;
+         margin-left: 10% !important;
+         margin-bottom: -10px;
+
+     }
+    #vegetables .icon {
+         margin-top: -3% !important;
+         margin-left: 0%;
+         width: 45px;
+     }
+/*fruites*/
+#fruit .ui-filterable #autocomplete-input {
+    font-family: 'Hashed Browns Regular' !important;
+    border: 1px solid #BEA993 !important;
+    border-radius: 15px;
+    width: 185vh !important;
+    height: 50px !important;
+    padding-left: 30px;
+}
+
+#fruit form {
+    border-radius: 15px;
+    margin-left: 7px !important;
+    width: 185.5vh !important;
+    height: 50px !important;
+    padding-left: 0px;
+    font-family: 'Hashed Browns Regular' !important;
+
+}
+#fruit .button {
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 2% !important;
+    background-color: white;
+    text-align: right;
+    margin-left: 10%;
+    font-size: 17px;
+    color: #0BBB17;
+    width: 60px;
+    height: 19px;
+    border-radius: 32px;
+}
+#fruit .ui-content ul li .fruit {
+    width: 84%;
+}
+#fruit .ui-content ul li .fruit1 {
+    width: 84%;
+}
+
+#fruit .ui-content ul li .fruit2 {
+    width: 84%;
+}
+
+#fruit .ui-content ul li .fruit3 {
+    width: 84%;
+}
+#fruit .ui-content ul li h2 {
+    margin-top: 2%;
+    margin-left: 10% !important;
+    margin-bottom: -10px;
+
+}
+
+#fruit .icon {
+    margin-top: -3% !important;
+    margin-left: 0%;
+    width: 45px;
+}
+/*meat*/
+#meat .ui-filterable #autocomplete-input {
+    font-family: 'Hashed Browns Regular' !important;
+    border: 1px solid #BEA993 !important;
+    border-radius: 15px;
+    width: 185vh !important;
+    height: 50px !important;
+    padding-left: 30px;
+}
+
+#meat form {
+    border-radius: 15px;
+    margin-left: 7px !important;
+    width: 185.5vh !important;
+    height: 50px !important;
+    padding-left: 0px;
+    font-family: 'Hashed Browns Regular' !important;
+
+}
+#meat .button {
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 2% !important;
+    background-color: white;
+    text-align: right;
+    margin-left: 10%;
+    font-size: 17px;
+    color: #0BBB17;
+    width: 60px;
+    height: 19px;
+    border-radius: 32px;
+}
+
+
+#meat .ui-content ul li .meat {
+    width: 84%;
+}
+#meat .ui-content ul li .meat1 {
+    width: 84%;
+}
+
+#meat .ui-content ul li .meat2 {
+    width: 84%;
+}
+
+#meat .ui-content ul li .meat3 {
+    width: 84%;
+}
+
+#meat .ui-content ul li h2 {
+    margin-top: 2%;
+    margin-left: 10% !important;
+    margin-bottom: -10px;
+
+}
+
+#meat .icon {
+    margin-top: -3% !important;
+    margin-left: 0%;
+    width: 45px;
+}
+/*cereal*/
+#cereal .ui-filterable #autocomplete-input {
+    font-family: 'Hashed Browns Regular' !important;
+    border: 1px solid #BEA993 !important;
+    border-radius: 15px;
+    width: 185vh !important;
+    height: 50px !important;
+    padding-left: 30px;
+}
+
+#cereal form {
+    border-radius: 15px;
+    margin-left: 7px !important;
+     width: 185.5vh !important;
+    height: 50px !important;
+    padding-left: 0px;
+    font-family: 'Hashed Browns Regular' !important;
+
+}
+#cereal .button {
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 2% !important;
+    background-color: white;
+    text-align: right;
+    margin-left: 10%;
+    font-size: 17px;
+    color: #0BBB17;
+    width: 60px;
+    height: 19px;
+    border-radius: 32px;
+}
+
+
+#cereal .ui-content ul li .cereal {
+    width: 84%;
+}
+
+#cereal .ui-content ul li .cereal1 {
+    width: 84%;
+}
+
+#cereal .ui-content ul li .cereal2 {
+    width: 84%;
+}
+
+#cereal .ui-content ul li .cereal3 {
+    width: 84%;
+}
+
+#cereal .ui-content ul li h2 {
+    margin-top: 2%;
+    margin-left: 10% !important;
+    margin-bottom: -10px;
+
+}
+
+#cereal .icon {
+    margin-top: -3% !important;
+    margin-left: 0%;
+    width: 45px;
+}
+/*contact us*/
+#contact .ui-field-content p {
+    position:absolute;
+    font-family: 'Hashed Browns Regular' !important;
+    padding-top: 4px;
+    left: 8%;
+    top:76.3%;
+
+    font-weight: 700;
+   
+
+}
+
+#contact button {
+
+    font-family: 'Hashed Browns Regular' !important;
+    border: 2px solid #09BF4F !important;
+    color: #09BF4F;
+    font-size: 22px;
+    background-color: #F6F2EF;
+    border-radius: 32px !important;
+    height: 65px !important;
+    width: 190px !important;
+    margin-left: 43%;
+    margin-top: 110px;
+    margin-bottom: 0px;
+
+
+}
+#contact .button {
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 2% !important;
+    background-color: white;
+    text-align: right;
+    margin-left: 10%;
+    font-size: 17px;
+    color: #0BBB17;
+   width: 60px;
+    height: 19px;
+    border-radius: 32px;
+}
+
+#contact footer {
+    color: white !important;
+    background-color: #09BF4F !important;
+    height: 43px !important;
+    text-align: center;
+    margin-left: -10%;
+    border-top-right-radius: 56px;
+    border-top-left-radius: 56px;
+}
+
+#contact footer h4 {
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 15px;
+}
+#count .button {
+    font-family: 'Hashed Browns Regular' !important;
+    margin-top: 2% !important;
+    background-color: white;
+    text-align: right;
+    margin-left: 10%;
+    font-size: 17px;
+    color: #0BBB17;
+    width: 60px;
+    height: 19px;
+    border-radius: 32px;
+}
+#count .left {
+    
+    position: absolute;
+    left: 500px;
+}
+
+#count .right {
+   
+    position: absolute;
+    right: 500px;
+
+}
+}

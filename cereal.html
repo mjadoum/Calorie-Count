@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="css/themes/mytheme.css" />
+  <link rel="stylesheet" href="css/themes/mytheme.min.css" />
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <title>Food Groups | Cereal</title>
+</head>
+
+<body>
+    
+  <!--Home page-->
+  <div data-role="page" id="cereal">
+    <link rel="stylesheet" href="css/themes/style.css">
+
+    <!--Header-->
+    <div data-role="header" class="header">
+      <a href="foodGroups.html" class="ui-btn ui-btn-inline button"><img src="images/back-arrow.png" alt=""
+          class="back">Back</a>
+      <h1>
+        <a href="index.html">
+          <img src="images/logo.png" alt="logo" class="logo">
+        </a>
+      </h1>
+    </div>
+    <!--content-->
+    <div role="main" class="ui-content">
+      <form class="ui-filterable" style="width: 95%; margin-left:13px ;">
+        <input id="autocomplete-input" data-type="search" placeholder="Search ">
+      </form>
+      <ul data-role="listview" data-filter="true" data-input="#autocomplete-input">
+            <li id="rice"><a class="cereal" href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>Rice</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">(100G) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 131</p>
+            <img src="images/food/cereal/rice.png" alt="logo" class="icon">
+          </a></li>
+            <li><a class="cereal1" id="corn" href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>corn</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">30g tablespoon &nbsp; &nbsp; &nbsp; &nbsp; 18</p>
+            <img src="images/food/cereal/corn.png" alt="logo" class="icon">
+          </a> </li>
+            <li><a class="cereal3" id="oats" href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>oats</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">&nbsp; &nbsp;30g Oats &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 114</p>
+            <img src="images/food/cereal/grain.png" alt="logo" class="icon">
+          </a></li>
+        <li><a class="cereal2" id="beans" href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>Beans</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">&nbsp; &nbsp;(60g)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              14</p>
+            <img src="images/food/cereal/soy.png" alt="logo" class="icon">
+          </a></li>
+         <li><a class="cereal3" id="peas" href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>Peas</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">1 Tablespoon (30g) &nbsp; &nbsp; &nbsp; 23</p>
+            <img src="images/food/cereal/peas.png" alt="logo" class="icon">
+          </a></li>
+        <li><a class="cereal3" id="barley" href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>Barley</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">&nbsp;1 pint&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 374
+            </p>
+            <img src="images/food/cereal/bag.png" alt="logo" class="icon">
+          </a></li>
+      </ul>
+    </div>
+    <!--footert-->
+    <footer data-role="footer" data-position="fixed">
+      <div class="ui-navbar" data-role="navbar">
+        <h4>@CopyRight by Mustafa JAdoun </h4>
+    </footer>
+     <div data-role="popup" id="transitionExample" class="ui-content" data-theme="a">
+       <h4><i class="fas fa-check-circle"></i></h4>
+      <p>Added To Calories Counter</p>
+    </div>
+  </div>
+
+</body>
+
+</html>

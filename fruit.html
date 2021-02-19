@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="css/themes/mytheme.css" />
+  <link rel="stylesheet" href="css/themes/mytheme.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <title>Food Groups | Fruits</title>
+</head>
+
+<body>
+  <div data-role="page" id="fruit">
+    <link rel="stylesheet" href="css/themes/style.css">
+    <!--Header-->
+    <div data-role="header" class="header">
+      <a href="foodGroups.html" class="ui-btn ui-btn-inline button"><img src="images/back-arrow.png" alt=""
+          class="back">Back</a>
+      <h1>
+        <a href="index.html">
+          <img src="images/logo.png" alt="logo" class="logo">
+        </a>
+      </h1>
+    </div>
+    <!--content-->
+    <div role="main" class="ui-content">
+      <form class="ui-filterable" style="width: 95%; margin-left:13px ;">
+        <input id="autocomplete-input" data-type="search" placeholder="Search " >
+      </form>
+      <ul data-role="listview" data-filter="true"  data-input="#autocomplete-input">
+            <li><a class="fruit" id="apple" href="#transitionExample" data-transition="flip"  data-rel="popup">
+            <h2>apple</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line"> &nbsp; &nbsp; 75g ave &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 192</p>
+            <img src="images/food/fruits/apple.png" alt="logo" class="icon">
+          </a></li>
+
+            <li><a class="fruit1" id="orange" href="#transitionExample" data-transition="flip"  data-rel="popup">
+            <h2>orange</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line"> &nbsp; &nbsp;(100G) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 36</p>
+            <img src="images/food/fruits/orange.png" alt="logo" class="icon">
+          </a> </li>
+
+            <li><a class="fruit3"  id="banana" href="#transitionExample" data-transition="flip"  data-rel="popup">
+            <h2>banana</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">Kids size (65g) &nbsp; &nbsp; &nbsp; &nbsp; 52</p>
+            <img src="images/food/fruits/banana.png" alt="logo" class="icon">
+          </a></li>
+
+        <li><a class="fruit2" id="strawberry" href="#transitionExample" data-transition="flip"  data-rel="popup">
+            <h2>strawberry</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">&nbsp;&nbsp;&nbsp;(12G) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+              &nbsp; 3</p>
+            <img src="images/food/fruits/strawberry.png" alt="logo" class="icon">
+          </a></li>
+
+         <li><a class="fruit3" id="grapes" href="#transitionExample" data-transition="flip"  data-rel="popup">
+            <h2>grape</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">Grape &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2</p>
+            <img src="images/food/fruits/grapes.png" alt="logo" class="icon">
+          </a></li>
+
+        <li><a class="fruit3" id="raspberry" href="#transitionExample" data-transition="flip"  data-rel="popup">
+            <h2>raspberry</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">1 Raspberry (4g) &nbsp; &nbsp; &nbsp; &nbsp; 25</p>
+            <img src="images/food/fruits/raspberry.png" alt="logo" class="icon">
+          </a></li>
+      </ul>
+    </div>
+    <!--footert-->
+    <footer data-role="footer" data-position="fixed">
+      <div class="ui-navbar" data-role="navbar">
+        <h4>@CopyRight by Mustafa JAdoun </h4>
+      </div>
+    </footer>
+     <div data-role="popup" id="transitionExample" class="ui-content" data-theme="a">
+      <h4><i class="fas fa-check-circle"></i></h4>
+      <p>Added to Calories Counter</p>
+    </div>
+         
+  </div>
+ 
+</body>
+
+</html>

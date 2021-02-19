@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="css/themes/mytheme.css" />
+  <link rel="stylesheet" href="css/themes/mytheme.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <title>Food Groups | Meat</title>
+</head>
+
+<body>
+ 
+  <!--Home page-->
+  
+  <div data-role="page" id="meat">
+    <link rel="stylesheet" href="css/themes/style.css">
+
+    <!--Header-->
+    <div data-role="header" class="header">
+      <a href="foodGroups.html" class="ui-btn ui-btn-inline button"><img src="images/back-arrow.png" alt=""
+          class="back">Back</a>
+      <h1>
+        <a href="index.html">
+          <img src="images/logo.png" alt="logo" class="logo">
+        </a>
+      </h1>
+    </div>
+    <!--content-->
+    <div role="main" class="ui-content">
+      <form class="ui-filterable" style="width: 95%; margin-left:13px ;">
+        <input id="autocomplete-input" data-type="search" placeholder="Search ">
+      </form>
+      <ul data-role="listview" data-filter="true" data-input="#autocomplete-input">
+            <li><a  href="#transitionExample" data-transition="flip" class="meat" data-rel="popup">
+            <h2>Beef</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">(100G) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 192</p>
+            <img src="images/food/meat/beef.png" alt="logo" class="icon">
+          </a></li>
+
+            <li><a  class="meat1" id="bacon"  href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>Bacon</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">&nbsp; (100G) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 284</p>
+            <img src="images/food/meat/bacon.png" alt="logo" class="icon">
+          </a> </li>
+
+            <li><a  class="meat3" id="burger"   href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>Burger</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">&nbsp; serving &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 508</p>
+            <img src="images/food/meat/burger.png" alt="logo" class="icon">
+          </a></li>
+
+        <li><a  class="meat2" id="hotdog"  href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>HotDog</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line">&nbsp; serving &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 564</p>
+            <img src="images/food/meat/hot-dog.png" alt="logo" class="icon">
+          </a></li>
+
+         <li><a class="meat3" id="sausage" href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>Sausage</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line"> &nbsp;Mini roll &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 52</p>
+            <img src="images/food/meat/sausages.png" alt="logo" class="icon">
+          </a></li>
+
+        <li><a  class="meat3" id="liver" href="#transitionExample" data-transition="flip" data-rel="popup">
+            <h2>Liver</h2>
+            <p class="first-line">Serving size &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KCAL</p>
+            <p class="sec-line"> &nbsp;(100G) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 137</p>
+            <img src="images/food/meat/liver.png" alt="logo" class="icon">
+          </a></li>
+      </ul>
+    </div>
+    <!--footert-->
+    <footer data-role="footer" data-position="fixed">
+      <div class="ui-navbar" data-role="navbar">
+        <h4>@CopyRight by Mustafa JAdoun </h4>
+      </div>
+    </footer>
+       <div data-role="popup" id="transitionExample" class="ui-content" data-theme="a">
+      <h4><i class="fas fa-check-circle"></i></h4>
+      <p>Added To Calories Counter</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
